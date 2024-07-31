@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <h1><span>SHAKIB</span> EXPRESS</h1>
+          <li id="Education" onclick="navClick('Education')">Education</li>
+          <li id="sports" onclick="navClick('sports')">Sports</li>
+          <li id="Technology" onclick="navClick('Technology')">Technology</li>
+        </div>
+        <div class="search-bar">
+          <input type="text" placeholder="Search Here" class="inp" />
+          <button class="btn">Search</button>
+        </div>
+      </nav>
+      <div class="card-data">
+        <div class="news-card"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
